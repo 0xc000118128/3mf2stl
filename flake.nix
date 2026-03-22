@@ -28,5 +28,7 @@
         meta.mainProgram = "3mf2stl";
       };
     });
+
+    homeModules.default = import ./nix/hm-module.nix {inherit self;};
   };
 }
